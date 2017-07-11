@@ -32,9 +32,7 @@ func (p *Pipeline) Search(ctx context.Context, values map[string]string, trackin
 
 	r := &piplinepb.SearchRequest{
 		Pipeline: &piplinepb.Pipeline{
-			Pipeline: &piplinepb.Pipeline_Name{
-				Name: p.name,
-			},
+			Name: p.name,
 		},
 		Tracking: pbTracking,
 		Values:   values,

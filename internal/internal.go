@@ -16,5 +16,5 @@ func NewContext(ctx context.Context, project, collection string) context.Context
 		projectKey:    project,
 		collectionKey: collection,
 	}
-	return metadata.NewContext(ctx, metadata.New(m))
+	return metadata.NewOutgoingContext(ctx, metadata.New(m))
 }

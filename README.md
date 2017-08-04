@@ -1,6 +1,4 @@
-# Sajari APIs Go Client
-
-> **Experimental**: Although much of the underlying functionality is fixed, this repo is currently in BETA and subject to breaking changes.
+# Sajari APIs Go Client &middot; [![Build Status](https://travis-ci.org/sajari/sajari-sdk-go.svg?branch=master)](https://travis-ci.org/sajari/sajari-sdk-go)
 
 This repository provides functionality for interacting with Sajari APIs.
 

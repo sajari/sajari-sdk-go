@@ -10,9 +10,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	enginepb "github.com/sajari/protogen-go/sajari/engine"
-	pb "github.com/sajari/protogen-go/sajari/engine/store/record"
-	rpcpb "github.com/sajari/protogen-go/sajari/rpc"
+	enginepb "code.sajari.com/protogen-go/sajari/engine"
+	pb "code.sajari.com/protogen-go/sajari/engine/store/record"
+	rpcpb "code.sajari.com/protogen-go/sajari/rpc"
 )
 
 // Field constants for internal fields.  NB: All field names prefixed

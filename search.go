@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	pb "github.com/sajari/protogen-go/sajari/api/query/v1"
-	querypb "github.com/sajari/protogen-go/sajari/engine/query/v1"
+	pb "code.sajari.com/protogen-go/sajari/api/query/v1"
+	querypb "code.sajari.com/protogen-go/sajari/engine/query/v1"
 )
 
 // TrackingType defines different modes of tracking which can be applied to search

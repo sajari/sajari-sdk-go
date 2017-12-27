@@ -4,10 +4,10 @@ package autocomplete
 import (
 	"golang.org/x/net/context"
 
-	"github.com/sajari/sajari-sdk-go"
-	"github.com/sajari/sajari-sdk-go/internal"
+	"code.sajari.com/sajari-sdk-go"
+	"code.sajari.com/sajari-sdk-go/internal"
 
-	pb "github.com/sajari/protogen-go/sajari/autocomplete"
+	pb "code.sajari.com/protogen-go/sajari/autocomplete"
 )
 
 // New creates a new client for interacting with auto complete models.

@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	pb "github.com/sajari/protogen-go/sajari/engine/schema"
-	rpcpb "github.com/sajari/protogen-go/sajari/rpc"
+	pb "code.sajari.com/protogen-go/sajari/engine/schema"
+	rpcpb "code.sajari.com/protogen-go/sajari/rpc"
 )
 
 // Schema returns the schema (list of fields) for the collection.

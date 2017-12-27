@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	pb "github.com/sajari/protogen-go/sajari/engine/query/v1"
+	pb "code.sajari.com/protogen-go/sajari/engine/query/v1"
 )
 
 // Filter is an interface satisified by filter types that can defined in this package.

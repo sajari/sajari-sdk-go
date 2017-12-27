@@ -6,12 +6,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/sajari/sajari-sdk-go"
-	"github.com/sajari/sajari-sdk-go/internal"
+	"code.sajari.com/sajari-sdk-go"
+	"code.sajari.com/sajari-sdk-go/internal"
 
-	qpb "github.com/sajari/protogen-go/sajari/bayes/query"
-	tpb "github.com/sajari/protogen-go/sajari/bayes/train"
-	tspb "github.com/sajari/protogen-go/sajari/bayes/trainingset"
+	qpb "code.sajari.com/protogen-go/sajari/bayes/query"
+	tpb "code.sajari.com/protogen-go/sajari/bayes/train"
+	tspb "code.sajari.com/protogen-go/sajari/bayes/trainingset"
 )
 
 // New returns a handler which provides access to functionality for

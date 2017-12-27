@@ -1,5 +1,5 @@
 // Package sajari provides functionality for interacting with Sajari APIs.
-package sajari
+package sajari // import "code.sajari.com/sajari-sdk-go"
 
 import (
 	"golang.org/x/net/context"
@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/sajari/sajari-sdk-go/internal"
+	"code.sajari.com/sajari-sdk-go/internal"
 )
 
 const (

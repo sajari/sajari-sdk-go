@@ -7,8 +7,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/sajari/sajari-sdk-go"
-	"github.com/sajari/sajari-sdk-go/autocomplete"
+	"code.sajari.com/sajari-sdk-go"
+	"code.sajari.com/sajari-sdk-go/autocomplete"
 )
 
 var (

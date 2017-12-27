@@ -1,6 +1,6 @@
 package sajari
 
-import pb "github.com/sajari/protogen-go/sajari/engine/query/v1"
+import pb "code.sajari.com/protogen-go/sajari/engine/query/v1"
 
 // Aggregate is an interface which is implemented by all aggregate
 // types in this package.

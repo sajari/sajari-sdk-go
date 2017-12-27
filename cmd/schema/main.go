@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	sajari "github.com/sajari/sajari-sdk-go"
+	sajari "code.sajari.com/sajari-sdk-go"
 )
 
 var (

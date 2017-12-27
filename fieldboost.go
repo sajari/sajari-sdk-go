@@ -1,6 +1,6 @@
 package sajari
 
-import pb "github.com/sajari/protogen-go/sajari/engine/query/v1"
+import pb "code.sajari.com/protogen-go/sajari/engine/query/v1"
 
 type fieldBoosts []FieldBoost
 

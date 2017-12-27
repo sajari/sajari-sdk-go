@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	recpb "github.com/sajari/protogen-go/sajari/engine/store/record"
+	recpb "code.sajari.com/protogen-go/sajari/engine/store/record"
 )
 
 // Learn takes a list of records identified by keys ks and a query request r and applies pos and neg

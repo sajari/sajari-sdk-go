@@ -3,8 +3,8 @@ package sajari
 import (
 	"golang.org/x/net/context"
 
-	pb "github.com/sajari/protogen-go/sajari/api/query/v1"
-	querypb "github.com/sajari/protogen-go/sajari/engine/query/v1"
+	pb "code.sajari.com/protogen-go/sajari/api/query/v1"
+	querypb "code.sajari.com/protogen-go/sajari/engine/query/v1"
 )
 
 // Query returns a handler for running queries using the Client.

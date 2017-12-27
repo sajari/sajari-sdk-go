@@ -3,7 +3,7 @@ package sajari
 import (
 	"golang.org/x/net/context"
 
-	piplinepb "github.com/sajari/protogen-go/sajari/api/pipeline/v1"
+	piplinepb "code.sajari.com/protogen-go/sajari/api/pipeline/v1"
 )
 
 // Pipeline returns a Pipeline for querying a collection.
